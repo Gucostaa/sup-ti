@@ -2,7 +2,7 @@
 
 ## 🎓 Instituição e Projeto
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas  
-**Disciplina:** Projeto Integrador V: Análise de Soluções Integradas para Organizações  
+**Disciplina:** Projeto Integrador: Análise de Soluções Integradas para Organizações  
 **Instituição:** Serviço Nacional de Aprendizagem Comercial - SENAC (EAD 2025)  
 **Professor:** João Carlos Lima e Silva  
 
