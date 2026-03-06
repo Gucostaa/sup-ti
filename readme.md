@@ -1,10 +1,5 @@
 # 🛠️ Sup-TI | Sistema de Gerenciamento de Suporte técnico
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SENAC-Projeto%20Integrador%20V-004a8e?style=for-the-badge" alt="Senac PI V">
-  <img src="https://img.shields.io/badge/Status-Desenvolvimento-green?style=for-the-badge" alt="Status">
-</p>
-
 ## 🎓 Instituição e Projeto
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas  
 **Disciplina:** Projeto Integrador V: Análise de Soluções Integradas para Organizações  
