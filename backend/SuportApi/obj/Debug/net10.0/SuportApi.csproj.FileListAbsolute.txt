@@ -39,3 +39,4 @@ C:\sup-ti\backend\suportapi\obj\Debug\net10.0\refint\SuportApi.dll
 C:\sup-ti\backend\suportapi\obj\Debug\net10.0\SuportApi.pdb
 C:\sup-ti\backend\suportapi\obj\Debug\net10.0\SuportApi.genruntimeconfig.cache
 C:\sup-ti\backend\suportapi\obj\Debug\net10.0\ref\SuportApi.dll
+C:\sup-ti\backend\SuportApi\obj\Debug\net10.0\SuportApi.sourcelink.json

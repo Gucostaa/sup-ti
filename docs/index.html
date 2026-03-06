@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sup-TI | Sistema de Gerenciamento de Suporte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-950 text-white scroll-smooth">
+
+    <nav class="fixed w-full z-50 bg-slate-950/90 backdrop-blur-sm border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold tracking-tighter text-blue-500">SUP<span class="text-white">-TI</span>
+            </h1>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#sobre" class="hover:text-blue-400 transition">O Projeto</a>
+                <a href="#video" class="hover:text-blue-400 transition">Demonstração</a>
+                <a href="#tecnologias" class="hover:text-blue-400 transition">Tecnologias</a>
+                <a href="#equipe" class="hover:text-blue-400 transition">Equipe</a>
+            </div>
+            <a href="https://github.com/Gucostaa/sup-ti" target="_blank"
+                class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg text-sm font-bold transition">
+                Ver GitHub
+            </a>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span
+                class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+                SENAC EAD 2026 | Projeto Integrador
+            </span>
+            <h2 class="text-5xl md:text-6xl font-extrabold mt-6 mb-8 tracking-tight">
+                Gerenciamento de Suporte <br>
+                <span class="text-blue-500">Técnico Inteligente</span>
+            </h2>
+            <p class="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
+                O <strong>Sup-TI</strong> centraliza solicitações, reduz o tempo de resposta e garante a rastreabilidade
+                total do atendimento, substituindo processos manuais por uma plataforma robusta.
+            </p>
+        </div>
+    </header>
+
+    <section id="video" class="py-16 px-6 bg-slate-900/40">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold mb-4">Demonstração em 1 Minuto</h3>
+                <p class="text-slate-400">Confira as funcionalidades do MVP, incluindo Dashboard Dark Mode e Gestão de
+                    Prioridades.</p>
+            </div>
+            <div
+                class="relative aspect-video w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl bg-black">
+                <video controls class="w-full h-full object-cover">
+                    <source src="video-demo.mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h3 class="text-3xl font-bold mb-6 italic text-blue-400 underline underline-offset-8">Funcionalidades do
+                    MVP</h3>
+                <ul class="space-y-4 text-slate-300">
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">✔</span> <strong>Dashboard Dark
+                            Mode:</strong> Focado em produtividade e redução de fadiga visual.</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">✔</span> <strong>Gestão de
+                            Prioridades:</strong> Identificação visual rápida de criticidade (Alta, Média, Baixa).</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">✔</span> <strong>Filtro em Tempo
+                            Real:</strong> Busca instantânea por qualquer campo da tabela de chamados.</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">✔</span> <strong>Arquitetura
+                            API-First:</strong> Backend em .NET pronto para futuras integrações.</li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800">
+                <h3 class="text-2xl font-bold mb-6">Personas Atendidas</h3>
+                <div class="space-y-6">
+                    <div>
+                        <p class="font-bold text-blue-400">João (Usuário Final)</p>
+                        <p class="text-sm text-slate-400">Acompanha o status de suas solicitações com facilidade.</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-emerald-400">Ana (Técnica N1)</p>
+                        <p class="text-sm text-slate-400">Filtra chamados e registra ações de diagnóstico rapidamente.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-orange-400">Marcos (Coordenador)</p>
+                        <p class="text-sm text-slate-400">Analisa métricas de desempenho e carga de trabalho da equipe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="py-20 bg-slate-900/20 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-12">Stack Tecnológica</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <p class="text-blue-400 font-bold">Frontend</p>
+                    <p class="text-white text-sm">React.js</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <p class="text-blue-400 font-bold">Backend</p>
+                    <p class="text-white text-sm">C# .NET Core API</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <p class="text-blue-400 font-bold">Banco de Dados</p>
+                    <p class="text-white text-sm">MySQL</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <p class="text-blue-400 font-bold">Design</p>
+                    <p class="text-white text-sm">Lucide Icons</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="py-24 px-6 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">Equipe de Desenvolvimento</h3>
+            <p class="text-slate-400 mb-10">Integrantes do Grupo PI - SENAC</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+                <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-800 text-slate-200">Gustavo Morais da
+                    Costa</div>
+                <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-800 text-slate-200">Lucas Andrade
+                    Espinoza</div>
+                <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-800 text-slate-200">João Pedro de
+                    Bittencourt Cabral</div>
+                <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-800 text-slate-200">Jucieu Felipe Vieira
+                    de Oliveira</div>
+                <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-800 text-slate-200">Luiz Carlos dos
+                    Santos Neto</div>
+            </div>
+            <div class="mt-12 text-slate-500 text-sm">
+                <p>Orientador: Prof. João Carlos Lima e Silva</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center border-t border-slate-900 text-slate-600">
+        <p>&copy; 2026 Sup-TI | SENAC TADS</p>
+    </footer>
+
+</body>
+
+</html>
