@@ -50,7 +50,7 @@ O **Sup-TI** é uma solução desenvolvida para centralizar e organizar o fluxo 
 | :--- | :--- |
 | **Frontend** | React.js, Lucide React, Axios |
 | **Backend** | C# (.NET Core API) |
-| **Estilização** | CSS-in-JS (Dark Theme) |
+| **Estilização** | CSS-in-JS |
 | **Segurança** | Arquitetura pronta para JWT e Roles |
 
 ---
