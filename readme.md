@@ -9,7 +9,7 @@
 ---
 
 ## 👥 Integrantes do Grupo
-* **Gustavo Morais da Costa** (Desenvolvedor Full Stack / Repositório)
+* **Gustavo Morais da Costa** 
 * **Lucas Andrade Espinoza**
 * **João Pedro de Bittencourt Cabral**
 * **Jucieu Felipe Vieira de Oliveira**
