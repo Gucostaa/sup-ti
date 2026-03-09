@@ -31,7 +31,7 @@ O **Sup-TI** é uma solução desenvolvida para centralizar e organizar o fluxo 
 ## 💻 Funcionalidades do MVP (Versão Atual)
 
 ### Para Usuários e Técnicos:
-- **Dashboard Dark Mode**: Interface intuitiva focada em produtividade.
+- **Dashboard**: Interface intuitiva focada em produtividade.
 - **Lista Dinâmica de Chamados**: Organização clara por **Solicitante**, **Setor** e **Assunto**.
 - **Gestão de Prioridades**: Identificação visual rápida (Alta, Média e Baixa).
 - **Descrição Completa**: Visualização de textos detalhados sem cortes, facilitando o diagnóstico.
